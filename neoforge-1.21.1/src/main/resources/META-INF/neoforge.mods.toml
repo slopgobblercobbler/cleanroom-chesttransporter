@@ -1,0 +1,26 @@
+modLoader="javafml"
+loaderVersion="[21,)"
+license="MIT"
+issueTrackerURL="https://github.com/cleanroom/minecraft_mod_ports/issues"
+
+[[mods]]
+modId="cleanroom_chesttransporter"
+version="${version}"
+displayName="Chest Transporter CleanRoom"
+description="Tiered container transportation with inventory snapshotting and movement debuffs."
+authors="CleanRoom Team"
+logoFile="assets/cleanroom_chesttransporter/icon.png"
+
+[[dependencies.cleanroom_chesttransporter]]
+    modId="neoforge"
+    type="required"
+    versionRange="[21.1.0,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.cleanroom_chesttransporter]]
+    modId="minecraft"
+    type="required"
+    versionRange="[1.20.1,1.21.4)"
+    ordering="NONE"
+    side="BOTH"
